@@ -6,3 +6,4 @@ class Persona:
         
     def __str__(self) -> str:
         return "El nombre es: " + self.__nombre + " y su edad: " + str(self.__edad) + " años"
+    
