@@ -1,6 +1,6 @@
 # Importación de superclases
-from herencia_multiple.figuraGeometrica import FiguraGeometrica
-from herencia_multiple.color import Color
+from figuraGeometrica import FiguraGeometrica
+from color import Color
 
 # Creamos la subclase
 class Cuadrado(FiguraGeometrica, Color):

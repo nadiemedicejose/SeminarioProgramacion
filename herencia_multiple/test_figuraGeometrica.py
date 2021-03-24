@@ -1,5 +1,5 @@
 # Importamos la clase
-from herencia_multiple.cuadrado import Cuadrado
+from cuadrado import Cuadrado
 
 # Creamos un objeto
 cuadrado = Cuadrado(5, "amarillo")
