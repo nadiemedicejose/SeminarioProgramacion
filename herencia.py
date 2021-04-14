@@ -16,7 +16,7 @@ class Empleado(Persona):
     def __str__(self) -> str:
         return super().__str__() + "Sueldo: $" + str(self.sueldo) + "\n"
 
-# Creacion de los ojbetos
+# Creacion de los objetos
 persona = Persona("Esteban", 22)
 
 # Enviamos a impresion
